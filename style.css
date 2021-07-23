@@ -69,6 +69,29 @@
     padding-top: 30px;
     padding-left: 530px;
 }
+.portfolio-images1 img{
+ height: 180px;
+ width: 200px;
+}
+.portfolio-images2 img{
+    height: 180px;
+    width: 200px;
+   }
 .portfolio-images1{
     display: flex;
+    justify-content: space-around;
+}
+.portfolio-images2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-8{
+    background-image: url("./assets/portfolio/work8.jpg");
+    height: 180px;
+    width: 200px;
+    background-color: gray;
+}
+.portfolio>h4{
+    text-align: center;
 }
