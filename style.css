@@ -1,0 +1,22 @@
+.background-image1{
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url("./assets/backgrounds/h_img.jpg");
+}
+.image1{
+    padding-top: 230px;
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+    color: white;
+    font-weight:300px;
+}
+.welcome>h2{
+    font-size: 45px;
+}
+.welcome>p{
+    font-size: 15px;
+}
