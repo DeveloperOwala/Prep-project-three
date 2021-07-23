@@ -5,11 +5,16 @@
     background-repeat: no-repeat;  
     background-image: url("./assets/backgrounds/h_img.jpg");
 }
-.image1{
+.logo{
     padding-top: 220px;
     text-align: center;
+    
+}
+.logo img{
+    height: 80px;
 }
 .welcome{
+    padding-top: 30px;
     text-align: center;
     color: white;
     font-weight:300px;
