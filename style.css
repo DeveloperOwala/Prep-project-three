@@ -56,4 +56,16 @@
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
+   
+}
+.icon{
+   text-align: center;
+
+}
+.icon img{
+    height: 70px;
+}
+.whatWeDo{
+    padding-top: 30px;
+    padding-left: 530px;
 }
