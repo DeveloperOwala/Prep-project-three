@@ -91,7 +91,18 @@
     height: 180px;
     width: 200px;
     background-color: gray;
+    color: white;
+ text-align: center;
+
 }
+
 .portfolio>h4{
+    margin-top: 50px;
     text-align: center;
+}
+.footers{
+    background-image: url("./assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 100%;
 }
