@@ -33,3 +33,14 @@
 .mouse img{
     height: 30px;
 }
+.about-Us{
+    text-align: center;
+    font-size: 15px;
+}
+.services{
+    background-image: url("./assets/backgrounds/s_image.jpg");
+   
+}
+.services{
+    height: 150px;
+}
