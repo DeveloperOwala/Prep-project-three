@@ -111,6 +111,7 @@ body{
 }
 .social-icons{
     display: flex;
+    justify-content: center;
 }
 .footers{
     padding-top: 50px;
