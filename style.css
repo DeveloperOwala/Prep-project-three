@@ -52,3 +52,8 @@
     color: white;
     padding-top: 70px;
 }
+.design-icon{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
