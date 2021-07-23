@@ -42,5 +42,13 @@
    
 }
 .services{
-    height: 150px;
+    height: 270px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.services{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
 }
