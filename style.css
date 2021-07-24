@@ -76,7 +76,7 @@ body{
 }
 .portfolio-images1 img{
  height: 180px;
- width: 230px;
+ width: 234px;
 }
 .portfolio-images2 img{
     height: 180px;
@@ -96,25 +96,25 @@ body{
     background-image: url("./assets/portfolio/work8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative; */
     height: 180px;
     width: 230px;
+    margin-left: 1rem;
 }
 .icon8-bg-colors{
     background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8));
-    padding-top: 20px;
-    padding-bottom: 48px;
+    padding-top: 10px; 
+    padding-bottom: 5px;
 }
 
 .bailey{
     border: 3px solid white;
-    margin: 8px;
-    
+    margin: 8px;   
 }
 .bailey>p{
     color: white;
     font-weight:bolder;
     font-size:x-large;
+    padding-bottom: 55px;
 }
 
 .portfolio>h4{
