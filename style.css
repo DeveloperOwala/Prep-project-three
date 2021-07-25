@@ -166,3 +166,24 @@ body{
     text-align: center;
     font-size: 13px;  
 }
+.designDescription{
+    display: none;
+}
+.developmentDescription{
+    display: none;
+}
+.productDescription{
+    display: none;
+}
+.portfolioOne{
+    border: 10px solid white;
+    color: white;
+    height: 100px;
+    width: 100px;
+    display: none;
+    top: 177%;
+    position: absolute;
+    left: 28%;
+ 
+ 
+}
