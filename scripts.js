@@ -113,9 +113,9 @@ function validateUser() {
 
 
     if (fnames != null || Emails != null || messages != null) {
-        alert( "**we have received your message. Thank you for reaching out to us. **");
+        alert("**we have received your message. Thank you for reaching out to us. **");
 
-    } else{
+    } else {
         alert("Please fill all the details! ");
 
     }
