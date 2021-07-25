@@ -154,6 +154,9 @@ body{
     background-image: url(./assets/backgrounds/c_image.jpg);
     background-size: cover;  
 }
+::placeholder {
+    color: white;
+  }
 #fname{
     width: 370px;
     margin-right: 20px;
@@ -165,4 +168,93 @@ body{
     padding-top: 8px;
     text-align: center;
     font-size: 13px;  
+}
+.designDescription{
+    display: none;
+}
+.developmentDescription{
+    display: none;
+}
+.productDescription{
+    display: none;
+}
+.portfolioOne{
+    border: 10px solid white;
+    color: white;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 175%;
+    position: absolute;
+    left: 26%;
+}
+.portfolioTwo{
+    border: 10px solid white;
+    color: yellow;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 175%;
+    position: absolute;
+    left: 39%;
+}
+.portfolioThree{
+    border: 10px solid white;
+    color: white;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 175%;
+    position: absolute;
+    left: 52%;
+}
+.portfolioFour{
+    border: 10px solid white;
+    color: white;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 175%;
+    position: absolute;
+    left: 65%;
+}
+.portfolioFive{
+    border: 10px solid white;
+    color: white;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 195%;
+    position: absolute;
+    left: 26%;
+}
+.portfolioSix{
+    border: 10px solid white;
+    color: white;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 195%;
+    position: absolute;
+    left: 39%;
+}
+.portfolioSeven{
+    border: 10px solid white;
+    color: white;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 195%;
+    position: absolute;
+    left: 51%;
+}
+.portfolioEight{
+    border: 10px solid white;
+    color: white;
+    height: 150px;
+    width: 170px;
+    display: none;
+    top: 195%;
+    position: absolute;
+    left: 64%;
 }

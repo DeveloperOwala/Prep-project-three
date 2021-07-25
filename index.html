@@ -8,6 +8,8 @@
     <title>Delani Studio</title>
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -55,16 +57,28 @@
             <div class="whatWeDo">
                 <h4>WHAT WE DO</h4>
             </div>
-            <div class="design-icon">
-                <div class="icon"> <img src="./assets/services_icons/design_icon.png" alt="">
-                    <p>DESIGN</p>
+            <div class="design-icon row">
+                <div class="icon col-4"> <img src="./assets/services_icons/design_icon.png" id="design_icon" alt="">
+                    <p class="design">DESIGN</p>
+                    <p class="designDescription">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
                 </div>
-                <div class="icon">
-                    <img src="./assets/services_icons/dev_icon.png" alt="">
-                    <p>DEVELOPMENT</p>
+                <div class="icon col-4">
+                    <img src="./assets/services_icons/dev_icon.png" id="dev_icon" alt="">
+                    <p class="development">DEVELOPMENT</p>
+                    <p class="developmentDescription">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
                 </div>
-                <div class="icon"> <img src="./assets/services_icons/product_icon.png" alt="">
-                    <p>PRODUCT MANAGEMENT</p>
+                <div class="icon col-4"> <img src="./assets/services_icons/product_icon.png" id="product_icon" alt="">
+                    <p class="product">PRODUCT MANAGEMENT</p>
+                    <p class="productDescription">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
                 </div>
 
             </div>
@@ -76,25 +90,33 @@
 
         </div>
         <div class="portfolio-images1">
-            <div class="icon"> <img src="./assets/portfolio/work4.jpg" alt="">
+            <div class="icon"> <img src="./assets/portfolio/work4.jpg" alt="" id="icon-1">
+                <p class="portfolioOne"> This project helped developers in chosing color code</p>
             </div>
             <div class="icon">
-                <img src="./assets/portfolio/work3.jpg" alt="">
+                <img src="./assets/portfolio/work3.jpg" alt="" id="icon-2">
+                <p class="portfolioTwo">This project was about a security firm</p>
             </div>
-            <div class="icon"> <img src="./assets/portfolio/work2.jpg" alt="">
+            <div class="icon"> <img src="./assets/portfolio/work2.jpg" alt="" id="icon-3">
+                <p class="portfolioThree">A project for ordering oranges from firm</p>
             </div>
-            <div class="icon"> <img src="./assets/portfolio/work1.jpg" alt="">
+            <div class="icon"> <img src="./assets/portfolio/work1.jpg" alt="" id="icon-4">
+                <p class="portfolioFour">A project for cartoon games</p>
             </div>
         </div>
         <div class="portfolio-images2">
-            <div class="icon"> <img src="./assets/portfolio/work5.jpg" alt="">
+            <div class="icon"> <img src="./assets/portfolio/work5.jpg" alt="" id="icon-5">
+                <p class="portfolioFive">A project for hotel bookings</p>
             </div>
             <div class="icon">
-                <img src="./assets/portfolio/work6.jpg" alt="">
+                <img src="./assets/portfolio/work6.jpg" alt="" id="icon-6">
+                <p class="portfolioSix">A project for Java Swing</p>
             </div>
-            <div class="icon"> <img src="./assets/portfolio/work7.jpg" alt="">
+            <div class="icon"> <img src="./assets/portfolio/work7.jpg" alt="" id="icon-7">
+                <p class="portfolioSeven">A website for alcohol dealer</p>
             </div>
-            <div class="icon-8">
+            <div class="icon-8" id="icon-8">
+                <p class="portfolioEight">A website safari resort</p>
                 <div class="icon8-bg-colors">
                     <div class="bailey">
                         <p>
@@ -113,10 +135,10 @@
             </div>
             <div class="forms">
                 <form action="">
-                    <input type="text" id="fname" name="fname" value="Name..." ;>
-                    <input type="text" id="lname" name="lname" value="Email..." ;><br><br>
-                    <input type="text" id="message" name="message" value="Your message here...";><br><br>
-                    <input type="submit" value="Submit" >
+                    <input type="text" id="fname" name="fname" placeholder="Name...">
+                    <input type="text" id="lname" name="Email" placeholder="Email..." ;><br><br>
+                    <input type="text" id="message" name="message" placeholder="Your message here..." ;><br><br>
+                    <input type="submit" onclick="validateUser()">
                 </form>
             </div>
 
@@ -147,6 +169,7 @@
             </p>
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
