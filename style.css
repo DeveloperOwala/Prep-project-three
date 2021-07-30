@@ -184,8 +184,8 @@ textarea{
 .portfolioOne{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
     top: 175%;
     position: absolute;
@@ -194,8 +194,8 @@ textarea{
 .portfolioTwo{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
     top: 175%;
     position: absolute;
@@ -204,18 +204,18 @@ textarea{
 .portfolioThree{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
     top: 175%;
     position: absolute;
-    left: 50%;
+    left: 51%;
 }
 .portfolioFour{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
     top: 175%;
     position: absolute;
@@ -224,40 +224,40 @@ textarea{
 .portfolioFive{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
-    top: 191%;
+    top: 192%;
     position: absolute;
     left: 16%;
 }
 .portfolioSix{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
-    top: 191%;
+    top: 192%;
     position: absolute;
-    left: 33%;
+    left: 34%;
 }
 .portfolioSeven{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
-    top: 191%;
+    top: 192%;
     position: absolute;
-    left: 50%;
+    left: 51%;
 }
 .portfolioEight{
     border: 10px solid white;
     color: white;
-    height: 150px;
-    width: 170px;
+    height: 140px;
+    width: 150px;
     display: none;
-    top: 191%;
+    top: 192%;
     position: absolute;
     left: 68%;
 }
