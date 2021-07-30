@@ -65,33 +65,18 @@ body{
    text-align: center;
 
 }
-.icon img{
-    height: 65px;
-    padding-left: 20px;
+
+.portfolio img{
+    
+    height: 150px;
+    width: auto;
     
 }
 .whatWeDo{
     padding-top: 40px;
-    padding-left: 530px;
+    /* padding-left: 530px; */
 }
-.portfolio-images1 img{
- height: 180px;
- width: 234px;
-}
-.portfolio-images2 img{
-    height: 180px;
-    width: 230px;
-   }
-.portfolio-images1{
-    display: flex;
-    margin-left: 170px;
-    padding-bottom: 20px;
-}
-.portfolio-images2{
-   margin-left: 170px;
-   display: flex;
-   padding-bottom: 20px;
-}
+
 .icon-8{
     background-image: url("./assets/portfolio/work8.jpg");
     background-repeat: no-repeat;
@@ -124,7 +109,7 @@ body{
 .footers{
     background-image: url("./assets/backgrounds/c_image.jpg");
     background-size: cover;
-    height: 450px;
+    height: auto;
     width: 100%;
 }
 .social-icons{
@@ -138,31 +123,49 @@ body{
     text-align: center;
 }
 #message{
-    width: 700px;
+    /* width: 700px; */
     padding-bottom: 150px;
+}
+textarea{
+    background:transparent !important;
+    border: 1px solid white;
 }
 .social-icons img{
     padding: 5px;
     height: 50px;
 }
-.forms input{
-    padding: 5px;
+#container{
+    /* padding: 5px; */
+    /* height: 500px;
     color: white;
     border-color:whitesmoke;
     border-style: solid;
-    border-width: 0.5px;
+    border-width: 0.5px; */
     background-image: url(./assets/backgrounds/c_image.jpg);
     background-size: cover;  
 }
+
+.form-group input{
+    background:transparent !important;
+    margin-left: 15px !important;
+    
+}
+.form-group{
+   
+    margin-left: 20%;
+}
+/* .form{
+    text-align: center !important;
+} */
 ::placeholder {
-    color: white;
+    color: white !important;
   }
 #fname{
-    width: 370px;
-    margin-right: 20px;
+    /* width: 370px; */
+    /* margin-right: 20px; */
 }
 #lname{
-    width: 370px;
+    /* width: 370px; */
 }
 .end{
     padding-top: 8px;
@@ -186,17 +189,17 @@ body{
     display: none;
     top: 175%;
     position: absolute;
-    left: 26%;
+    left: 16%;
 }
 .portfolioTwo{
     border: 10px solid white;
-    color: yellow;
+    color: white;
     height: 150px;
     width: 170px;
     display: none;
     top: 175%;
     position: absolute;
-    left: 39%;
+    left: 33%;
 }
 .portfolioThree{
     border: 10px solid white;
@@ -206,7 +209,7 @@ body{
     display: none;
     top: 175%;
     position: absolute;
-    left: 52%;
+    left: 50%;
 }
 .portfolioFour{
     border: 10px solid white;
@@ -216,7 +219,7 @@ body{
     display: none;
     top: 175%;
     position: absolute;
-    left: 65%;
+    left: 68%;
 }
 .portfolioFive{
     border: 10px solid white;
@@ -224,9 +227,9 @@ body{
     height: 150px;
     width: 170px;
     display: none;
-    top: 195%;
+    top: 191%;
     position: absolute;
-    left: 26%;
+    left: 16%;
 }
 .portfolioSix{
     border: 10px solid white;
@@ -234,9 +237,9 @@ body{
     height: 150px;
     width: 170px;
     display: none;
-    top: 195%;
+    top: 191%;
     position: absolute;
-    left: 39%;
+    left: 33%;
 }
 .portfolioSeven{
     border: 10px solid white;
@@ -244,9 +247,9 @@ body{
     height: 150px;
     width: 170px;
     display: none;
-    top: 195%;
+    top: 191%;
     position: absolute;
-    left: 51%;
+    left: 50%;
 }
 .portfolioEight{
     border: 10px solid white;
@@ -254,7 +257,11 @@ body{
     height: 150px;
     width: 170px;
     display: none;
-    top: 195%;
+    top: 191%;
     position: absolute;
-    left: 64%;
+    left: 68%;
+}
+#textareamessage{
+margin-left: 5px !important;
+height: 150px;
 }
