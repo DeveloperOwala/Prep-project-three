@@ -2,24 +2,31 @@ $(document).click(function () {
     // displaying icon1
     $("#design_icon").click(function () {
         $(".designDescription").show();
+        $("#design_icon").hide();
+       
     });
     $(".design").click(function () {
-        $(".designDescription").hide(3000);
+        $(".designDescription").hide();
+        $("#design_icon").show();
     });
     // displaying icon 2
     $("#dev_icon").click(function () {
         $(".developmentDescription").show();
+        $("#dev_icon").hide();
     });
     $(".development").click(function () {
-        $(".developmentDescription").hide(3000);
+        $(".developmentDescription").hide();
+        $("#dev_icon").show();
     });
 
     //displaying icon 3
     $("#product_icon").click(function () {
         $(".productDescription").show();
+        $("#product_icon").hide();
     });
     $(".product").click(function () {
-        $(".productDescription").hide(3000);
+        $(".productDescription").hide();
+        $("#product_icon").show();
     });
 
     // hover project one
@@ -107,9 +114,9 @@ $(document).click(function () {
 })
 
 function validateUser() {
-    var fnames = parseInt(document.getElementById("fname").value);
-    var Emails = parseInt(document.getElementById("lname").value);
-    var messages = parseInt(document.getElementById("message").value);
+    var fnames = parseInt(document.getElementById("username").value);
+    var Emails = parseInt(document.getElementById("email").value);
+    var messages = parseInt(document.getElementById("textareamessage").value);
 
 
     if (fnames != null || Emails != null || messages != null) {
